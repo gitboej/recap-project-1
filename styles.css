@@ -9,3 +9,36 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
+
+.quiz-card {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid #666;
+}
+
+.quiz-bookmark {
+  width: 20px;
+  height: auto;
+  display: flex;
+  align-items: end;
+}
+
+.quiz-question {
+  text-align: center;
+  font-size: 40px;
+}
+
+.show-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-answer-button {
+  background-color: #f00;
+}
+
+.quiz-tag {
+  color: #fff;
+  background-color: #08f;
+}
