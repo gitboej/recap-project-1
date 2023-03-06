@@ -12,6 +12,10 @@
   font-size: 20px;
 }
 
+main {
+  margin-bottom: 80px;
+}
+
 .quiz-card {
   margin: 20px;
   padding: 20px;
@@ -46,4 +50,21 @@
 .quiz-tag {
   color: #fff;
   background-color: #08f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ccc;
+  border-top: #000 solid;
+  padding: 5px;
+}
+
+a > img {
+  width: 40px;
+  height: 40px;
 }
