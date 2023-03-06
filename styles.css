@@ -14,13 +14,16 @@
   margin: 20px;
   padding: 20px;
   border: 5px solid #666;
+  position: relative;
+  background-color: #fdf0d5;
 }
 
 .quiz-bookmark {
   width: 20px;
   height: auto;
-  display: flex;
-  align-items: end;
+  position: absolute;
+  top: 15px;
+  right: 10px;
 }
 
 .quiz-question {
