@@ -5,105 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="app-title">
-      <h1>Quiz App</h1>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
     <main>
       <section class="quiz-card">
         <img
           src="img/bookmark-regular.svg"
           alt="Bookmark Icon"
-          class="quiz-bookmark"
+          class="quiz-card__icon"
         />
-        <h2 class="quiz-question">What is Lorem?</h2>
-        <div class="show-answer">
-          <button class="show-answer-button" type="button">Show Answer</button>
+        <h2 class="quiz-card__question">What is Lorem?</h2>
+        <div class="quiz-card__answer-container">
+          <button class="quiz-card__answer-button" type="button">
+            Show Answer
+          </button>
         </div>
-        <p class="quiz-answer">
+        <p class="quiz-card__answer">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
           dignissimos fugiat ipsa dolorum voluptatibus nihil suscipit minima!
           Minima quisquam repellendus exercitationem ipsam, quos enim tempora
           fugit magni veniam impedit neque?
         </p>
-        <button class="quiz-tag" type="button">#Lorem</button>
-        <button class="quiz-tag" type="button">#placeholder</button>
-        <button class="quiz-tag" type="button">#syntax</button>
+        <button class="quiz-card__tag" type="button">#Lorem</button>
+        <button class="quiz-card__tag" type="button">#placeholder</button>
+        <button class="quiz-card__tag" type="button">#syntax</button>
       </section>
       <section class="quiz-card">
         <img
           src="img/bookmark-regular.svg"
           alt="Bookmark Icon"
-          class="quiz-bookmark"
+          class="quiz-card__icon"
         />
-        <h2 class="quiz-question">What is Lorem?</h2>
-        <div class="show-answer">
-          <button class="show-answer-button" type="button">Show Answer</button>
+        <h2 class="quiz-card__question">What is Lorem?</h2>
+        <div class="quiz-card__answer-container">
+          <button class="quiz-card__answer-button" type="button">
+            Show Answer
+          </button>
         </div>
-        <p class="quiz-answer">
+        <p class="quiz-card__answer">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
           dignissimos fugiat ipsa dolorum voluptatibus nihil suscipit minima!
           Minima quisquam repellendus exercitationem ipsam, quos enim tempora
           fugit magni veniam impedit neque?
         </p>
-        <button class="quiz-tag" type="button">#Lorem</button>
-        <button class="quiz-tag" type="button">#placeholder</button>
-        <button class="quiz-tag" type="button">#syntax</button>
+        <button class="quiz-card__tag" type="button">#Lorem</button>
+        <button class="quiz-card__tag" type="button">#placeholder</button>
+        <button class="quiz-card__tag" type="button">#syntax</button>
       </section>
       <section class="quiz-card">
         <img
           src="img/bookmark-regular.svg"
           alt="Bookmark Icon"
-          class="quiz-bookmark"
+          class="quiz-card__icon"
         />
-        <h2 class="quiz-question">What is Lorem?</h2>
-        <div class="show-answer">
-          <button class="show-answer-button" type="button">Show Answer</button>
+        <h2 class="quiz-card__question">What is Lorem?</h2>
+        <div class="quiz-card__answer-container">
+          <button class="quiz-card__answer-button" type="button">
+            Show Answer
+          </button>
         </div>
-        <p class="quiz-answer">
+        <p class="quiz-card__answer">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
           dignissimos fugiat ipsa dolorum voluptatibus nihil suscipit minima!
           Minima quisquam repellendus exercitationem ipsam, quos enim tempora
           fugit magni veniam impedit neque?
         </p>
-        <button class="quiz-tag" type="button">#Lorem</button>
-        <button class="quiz-tag" type="button">#placeholder</button>
-        <button class="quiz-tag" type="button">#syntax</button>
+        <button class="quiz-card__tag" type="button">#Lorem</button>
+        <button class="quiz-card__tag" type="button">#placeholder</button>
+        <button class="quiz-card__tag" type="button">#syntax</button>
       </section>
       <section class="quiz-card">
         <img
           src="img/bookmark-regular.svg"
           alt="Bookmark Icon"
-          class="quiz-bookmark"
+          class="quiz-card__icon"
         />
-        <h2 class="quiz-question">What is Lorem?</h2>
-        <div class="show-answer">
-          <button class="show-answer-button" type="button">Show Answer</button>
+        <h2 class="quiz-card__question">What is Lorem?</h2>
+        <div class="quiz-card__answer-container">
+          <button class="quiz-card__answer-button" type="button">
+            Show Answer
+          </button>
         </div>
-        <p class="quiz-answer">
+        <p class="quiz-card__answer">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
           dignissimos fugiat ipsa dolorum voluptatibus nihil suscipit minima!
           Minima quisquam repellendus exercitationem ipsam, quos enim tempora
           fugit magni veniam impedit neque?
         </p>
-        <button class="quiz-tag" type="button">#Lorem</button>
-        <button class="quiz-tag" type="button">#placeholder</button>
-        <button class="quiz-tag" type="button">#syntax</button>
+        <button class="quiz-card__tag" type="button">#Lorem</button>
+        <button class="quiz-card__tag" type="button">#placeholder</button>
+        <button class="quiz-card__tag" type="button">#syntax</button>
       </section>
     </main>
     <footer class="navbar">
       <a class="navbar__selected">
         <img
-          class="link"
+          class="navbar__icon"
           src="img/home-icon-silhouette-svgrepo-com.svg"
           alt="Home Button"
       /></a>
       <a href="bookmarks.html"
-        ><img class="link" src="img/bookmark-solid.svg" alt="Bookmark Button"
+        ><img
+          class="navbar__icon"
+          src="img/bookmark-solid.svg"
+          alt="Bookmark Button"
       /></a>
-      <a><img class="link" src="img/user-regular.svg" alt="User Button" /></a>
+      <a
+        ><img class="navbar__icon" src="img/user-regular.svg" alt="User Button"
+      /></a>
     </footer>
   </body>
 </html>

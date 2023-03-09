@@ -1,0 +1,35 @@
+.quiz-card {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid #666;
+  position: relative;
+  background-color: #fdf0d5;
+}
+
+.quiz-card__icon {
+  width: 20px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.quiz-card__question {
+  text-align: center;
+  font-size: 40px;
+}
+
+.quiz-card__answer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quiz-card__answer-button {
+  background-color: #f00;
+}
+
+.quiz-card__tag {
+  color: #fff;
+  background-color: #08f;
+}
